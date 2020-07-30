@@ -1,0 +1,229 @@
+/* GENERAL */
+
+	html{
+		margin: 0;
+		font-family: Arial;
+	}
+
+	body{
+		margin: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		margin: 0;
+	}
+	
+	input[type="text"]:focus {
+		outline:none;
+	}
+
+	button:focus {
+		outline:none;
+	}
+
+	/* HEADER */
+
+		#header{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+			width: 100%;
+			height: 8vh;
+			background-color: #FFFFFF;
+			border-bottom: 1px solid #dfe1e5;
+		}
+
+		#header #lien_logo_tesla{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 180px;
+			height: 70px;
+			position: absolute;
+		}
+
+		#header #logo_tesla{
+			width: 140px;
+			padding: 0 20px;
+		}
+
+		#header form{
+			display: flex;
+			width: 40%;
+			height: 40px;
+			background-color: #FFFFFF;
+			border-radius: 20px;
+			border: 1px solid #dfe1e5;
+			margin-left: 180px;
+			z-index: 99999;
+		}
+
+		#header form:hover{
+			box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+		}
+
+		#header input[type=text]{
+			border: none;
+			background: none;
+			width: 100%;
+			height: 100%;
+			padding-left: 20px;
+			font-size: 15px;
+		}
+
+		#header button{
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			border: none;
+			background: none;
+			width: 40px;
+			height: 100%;
+			padding: 0;
+		}
+
+		#header button #logo_tesla_2{
+			height: 20px;
+		}
+
+	/* AUTOCOMPLETION */
+
+		#ui-id-1{
+			border-radius: 25px;
+			border: none;
+			padding-top: 50px;
+			width: 40% !important;
+			box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+		}
+
+		.ui-menu-item{
+			padding: 5px 25px;
+		}
+
+		.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active{
+			background: none;
+			border: none;
+			color: #000000;
+		}
+
+	/* INDEX */
+
+		#recherche_index{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			width: 100%;
+			height: 100vh;
+			background-image: url("Images/fonds/Model-3-Mountain-Pearl.png");
+			background-position: bottom;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#recherche_index_barre{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 50vh;
+		}
+
+		#recherche_index_barre #logo_tesla_1{
+			height: 25vh;
+			margin-bottom: 20px;
+		}
+
+		#recherche_index_barre form{
+			display: flex;
+			width: 40%;
+			height: 50px;
+			background-color: #FFFFFF;
+			border-radius: 25px;
+			border: none;
+			z-index: 99999;
+		}
+
+		#recherche_index_barre input[type=text]{
+			border: none;
+			background: none;
+			width: 100%;
+			height: 100%;
+			padding-left: 25px;
+			font-size: 20px;
+		}
+
+		#recherche_index_barre button{
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			border: none;
+			background: none;
+			width: 50px;
+			height: 100%;
+			padding: 0;
+			cursor: pointer;
+		}
+
+		#recherche_index_barre button #logo_tesla_2{
+			height: 30px;
+		}
+
+	/* RECHERCHE */
+
+		#resultat_recherche{
+			display: flex;
+			flex-direction: column;
+			margin: 28px 0 28px 200px;
+		}
+
+		.block_resultat_recherche{
+			display: flex;
+			flex-direction: column;
+			margin: 0 28px 28px 0;
+		}
+
+		.block_resultat_recherche a{
+			text-decoration: none;
+			color: black;
+		}
+
+		.block_resultat_recherche a:hover{
+			text-decoration: underline;
+		}
+
+	/* ELEMENT */
+
+		#element{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 92vh;
+			background-image: url("Images/fonds/Model-3-Mountain-Pearl.png");
+			background-position: bottom;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#element_info{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			align-items: center;
+			background-color: #FFFFFF;
+			width: 50%;
+			max-width: 800px;
+			height: 80%;
+			padding: 20px;
+		}
+
+		#element_logo{
+			height: 20%;
+		}
+		
+		#element_info h1, h2, h3, h4, h5, h6{
+			font-weight: normal;
+		}
